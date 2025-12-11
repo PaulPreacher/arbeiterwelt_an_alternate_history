@@ -10,24 +10,24 @@ max-visits: 3
 
 = Questions of Ideology
 
-The SPD is torn between many different ideological currents. What should be our primary ideological guidance for now?
+The MSPD is torn between many different ideological currents. What should be our primary ideological guidance for now?
 
 [? if ideology != 0 : We have previously chosen a [+ ideology +] ideology. Changing it will likely have drawbacks. ?]
 
-- @class_struggle: Class struggle and preparing the proletariat for the revolution are our primary goals.
+- @nationalism: We must support our nation in it's struggel and in it's time of need, Without Germany the workers have no home!
 - @centrist: The Center Marxism of Karl Kautsky remains the best way to resolve our internal contradictions.
 - @labor: We should work with the trade unions to improve the lives of workers.
 - @reform: Following Eduard Bernstein, we should work for ethical socialism, strengthen democracy, and expand the party's electorate.
 - @easy_discard
 
-@class_struggle
+@social_patriotism
 on-arrival: {!
-if (Q.ideology && Q.ideology != "left") {
+if (Q.ideology && Q.ideology != "patriots") {
     Q.changed = 1;
 }
 !}
 go-to: changed if changed = 1
-on-departure: ideology = "left"; left_strength += 10; communist_coalition += 1; left_dissent -= 5; z_relation -= 3; dvp_relation -= 5; nationalization_support += 1; kpd_relation += 3
+on-departure: ideology = "patriots"; patriots_strength += 10; patriots_dissent -= 5; z_relation += 3; dvp_relation += 5; kpd_relation -= 10
 
 The radical left of the party supports a course of class struggle, and potentially a reconcilliation with the Communists.
 
