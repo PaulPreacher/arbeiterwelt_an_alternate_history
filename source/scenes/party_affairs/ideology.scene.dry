@@ -14,13 +14,13 @@ The MSPD is torn between many different ideological currents. What should be our
 
 [? if ideology != 0 : We have previously chosen a [+ ideology +] ideology. Changing it will likely have drawbacks. ?]
 
-- @nationalism: We must support our nation in it's struggle and in it's time of need, Without Germany the workers have no home!
+- @nationalism: We must support our nation in it's struggel and in it's time of need, Without Germany the workers have no home!
 - @centrist: The Center Marxism of Karl Kautsky remains the best way to resolve our internal contradictions.
 - @labor: We should work with the trade unions to improve the lives of workers.
 - @reform: Following Eduard Bernstein, we should work for ethical socialism, strengthen democracy, and expand the party's electorate.
 - @easy_discard
 
-@patriotism
+@social_patriotism
 on-arrival: {!
 if (Q.ideology && Q.ideology != "patriots") {
     Q.changed = 1;
@@ -29,7 +29,7 @@ if (Q.ideology && Q.ideology != "patriots") {
 go-to: changed if changed = 1
 on-departure: ideology = "patriots"; patriots_strength += 10; patriots_dissent -= 5; z_relation += 3; dvp_relation += 5; kpd_relation -= 10
 
-The right wing of our party; They support Germany and value militarization and anti communism.
+The radical left of the party supports a course of class struggle, and potentially a reconcilliation with the Communists.
 
 @centrist
 on-arrival: {!
