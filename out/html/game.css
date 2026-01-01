@@ -540,7 +540,7 @@ table {
 .seat.kpd {
     fill: #8B0000;
 }
-.seat.mspd {
+.seat.spd {
     fill: #E3000F;
     stroke: var(--border-color);
     stroke-width: 1.5px;
@@ -566,7 +566,7 @@ table {
 .seat.nsdap {
     fill: #954B00;
 }
-.seat.uspd {
+.seat.sapd {
     fill: #C40000;
 }
 
