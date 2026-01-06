@@ -52,7 +52,7 @@ It is not enough for the KPD to solely be a political party. The Worker Singer's
 choose-if: resources > 0
 unavailable-subtitle: Not enough resources.
 subtitle: -1 resources
-on-arrival: resources -= 1; rfb_strength  += 100; rfb_militancy += 0.01; reichsbanner_timer = 0; funded_reichsbanner += 1
+on-arrival: resources -= 1; rfb_strength  += 50; rfb_militancy += 0.01; reichsbanner_timer = 0; funded_reichsbanner += 1
 
 We have increased recruiting to the RFB.
 
@@ -60,7 +60,7 @@ We have increased recruiting to the RFB.
 choose-if: resources > 0
 unavailable-subtitle: Not enough resources.
 subtitle: -1 resources
-on-arrival: resources -= 1; rfb_strength += 50; rfb_militancy += 0.02; young_socialists += 1; left_strength += 5; neorevisionist_strength += 5; radicalization += 1;
+on-arrival: resources -= 1; rfb_strength += 25; rfb_militancy += 0.02; young_socialists += 1; left_strength += 5; neorevisionist_strength += 5; radicalization += 1;
 
 Our new youth members flock to the left or neorevisionist wings of the party, and also bring new radicalism to the RFB.
 
