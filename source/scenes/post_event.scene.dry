@@ -82,10 +82,10 @@ var total_strength = Q.maximalist_strength + Q.center_strength + Q.brandlerites_
 Q.maximalists_strength = 100*Q.maximalists_strength/total_strength;
 Q.center_strength = 100*Q.center_strength/total_strength;
 Q.brandlerites_strength = 100*Q.brandlerites_strength/total_strength;
-Q.versöhnler_strength = 100*Q.versöhnler_strength/total_strength;
+Q.versohnler_strength = 100*Q.versohnler_strength/total_strength;
 Q.neorevisionist_strength = 100*Q.neorevisionist_strength/total_strength;
 
-var total_dissent = Q.maximalist_strength*Q.maximalist_dissent + Q.center_strength*Q.center_dissent + Q.brandlerites_strength*Q.brandlerites_dissent + Q.versöhnler_strength*Q.versöhnler_dissent + Q.neorevisionist_strength*Q.neorevisionist_dissent;
+var total_dissent = Q.maximalist_strength*Q.maximalist_dissent + Q.center_strength*Q.center_dissent + Q.brandlerites_strength*Q.brandlerites_dissent + Q.versohnler_strength*Q.versohnler_dissent + Q.neorevisionist_strength*Q.neorevisionist_dissent;
 
 
 Q.dissent = 0.01*total_dissent/total_strength;
