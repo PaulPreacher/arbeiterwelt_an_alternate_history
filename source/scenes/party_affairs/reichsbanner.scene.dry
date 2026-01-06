@@ -8,7 +8,7 @@ on-arrival: month_actions += 1; reichsbanner_timer += 6; rb_militarization_cost 
 max-visits: 6
 #subtitle: Paramilitary organizing in defense of the republic.
 
-= Reichsbanner
+= RFB
 
 The *RFB * is a mass organization for the coming revolution in Germany. We alone control the RFB and should use it to combat the foes of the revolution
 
