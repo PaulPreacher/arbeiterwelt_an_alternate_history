@@ -103,11 +103,11 @@ Economic growth: [+ economic_growth_2 +]%
 
 @paramilitaries
 on-arrival: {!
-if (Q.rb_strength) {
-    Q.rb_strength_2 = Q.rb_strength.toFixed(1);
-}
 if (Q.rfb_strength) {
     Q.rfb_strength_2 = Q.rfb_strength.toFixed(1);
+}
+if (Q.rb_strength) {
+    Q.rb_strength_2 = Q.rb_strength.toFixed(1);
 }
 if (Q.sh_strength) {
     Q.sh_strength_2 = Q.sh_strength.toFixed(1);
@@ -119,13 +119,12 @@ if (Q.sa_strength) {
 
 = Paramilitaries
 
-{!<span class="tooltip-text" title="The Reichsbanner Schwarz-Rot-Gold is a popular organization for defending democracy, mostly affiliated with the SPD.">Reichsbanner</span>!} Strength: [+ rb_strength_2 +] thousand
-
-Reichsbanner Militarization: [+ rb_militancy : militancy +]
-
 {!<span class="tooltip-text" title="The RFB (Rotfrontkämpferbund) is a communist group associated with the KPD.">RFB</span>!} Strength: [+ rfb_strength_2 +] thousand
 
 RFB Militarization: [+ rfb_militancy : militancy +]
+{!<span class="tooltip-text" title="The Reichsbanner Schwarz-Rot-Gold is a popular organization for defending democracy, mostly affiliated with the SPD.">Reichsbanner</span>!} Strength: [+ rb_strength_2 +] thousand
+
+Reichsbanner Militarization: [+ rb_militancy : militancy +]
 
 {!<span class="tooltip-text" title="The Stahlhelm is a right-wing organization of war veterans associated with the DNVP.">Stahlhelm</span>!} Strength: [+ sh_strength_2 +] thousand
 
@@ -158,13 +157,13 @@ Q.socialism_disp = Math.round(Q.socialism);
 
 (if the election were to be held now):
 
-SPD: [+ spd_votes +]%
+KPD: [+ kpd_votes +]%
 
 [? if sapd_formed: SAPD: [+ sapd_votes +]% ?]
 
 Z + BVP: [+ z_votes +]%
 
-KPD: [+ kpd_votes +]%
+SPD: [+ spd_votes +]%
 
 [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ ddp_votes +]%
 
@@ -191,3 +190,5 @@ Unemployed: SPD: [+ unemployed_spd_display +]%, Z: [+ unemployed_z_display +]%, 
 Catholics: SPD: [+ catholics_spd_display +]%, Z: [+ catholics_z_display +]%, KPD: [+ catholics_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ catholics_ddp_display +]%, DVP: [+ catholics_dvp_display +]%; DNVP: [+ catholics_dnvp_display +]%, NSDAP: [+ catholics_nsdap_display +]%, Others: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?]
 
 Support for the Republic: [+ pro_republic_disp +]%
+
+Support for Socalisim: [+ socialism_disp +]%
