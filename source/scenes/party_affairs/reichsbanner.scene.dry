@@ -49,14 +49,14 @@ The RFB is already serving the purpose it needs to serve. There is no reason to 
 - @return: Continue...
 
 
-@cut_rfb
+@cut_rb
 subtitle: +1 resources
 on-arrival: resources += 1; rfb_strength -= 100; rfb_militancy -= 0.05; left_strength -= 2; left_dissent -= 2; spd_militancy -= 0.05; workers_kpd += 2; unemployed_kpd += 2
 
 Cutting resources to the RFB causes a drop in the membership, and leads some would-be members to join the Socialists instead.
 
 
-@women_rfb
+@women_rb
 title: Allow women to join the Reichsbanner.
 subtitle: -1 resources - This might cause a backlash from existing members.
 choose-if: resources > 0
