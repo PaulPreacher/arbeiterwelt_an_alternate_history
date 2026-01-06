@@ -96,7 +96,7 @@ Economic growth: [+ economic_growth_2 +]%
 
 {!<span class="tooltip-text" title="The Brandlerites's goal is a prgamatic unity of the left that supports the KPD.">Brandlerites</span>!} strength: [+ brandlerites_strength : strength +], dissent: [+ brandlerites_dissent : dissent +]
 
-{!<span class="tooltip-text" title="Versöhnler are pragmatic participants in government, and seek to expand SPD cooperation while supporting the KPD.">Versöhnler</span>!} strength: [+ versöhnler_strength : strength +], dissent: [+ versöhnler_dissent : dissent +]
+{!<span class="tooltip-text" title="Versohnler are pragmatic participants in government, and seek to expand SPD cooperation while supporting the KPD.">Versohnler</span>!} strength: [+ versohnler_strength : strength +], dissent: [+ versohnler_dissent : dissent +]
 
 [? if neorevisionism > 0 : Neorevisionist strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +] ?]
 
