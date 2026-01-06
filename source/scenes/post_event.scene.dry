@@ -76,7 +76,7 @@ if (Q.unemployed <= 1) {
 }
 
 // re-calculate dissent.
-var total_strength = Q.maximalist_strength + Q.center_strength + Q.brandlerites_strength + Q.versöhnler_strength + Q.neorevisionist_strength;
+var total_strength = Q.maximalist_strength + Q.center_strength + Q.brandlerites_strength + Q.versohnler_strength + Q.neorevisionist_strength;
 
 // normalize strength for the different factions
 Q.maximalists_strength = 100*Q.maximalists_strength/total_strength;
