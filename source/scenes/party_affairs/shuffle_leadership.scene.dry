@@ -355,15 +355,15 @@ Otto Wels is now an advisor.
 
 @add_thalmann
 title: Ernst Thalmann
-subtitle: Ernst Thalmann is a hero of the KPD he is Our Hero.
+subtitle: Ernst Thalmann is a hero of the KPD he is Our Hero. {!<br><br>!}[? if difficulty < 0 : Actions -  Organizing workers, Party Discipline, Emergency Fundraising ?]
 is-card: true
 card-image: img/portraits/Thalmann.jpg
 tags: center_advisor
-view-if: thalmann_advisor = 0
+view-if: thalmann_advisor = 0 and n_advisors < 3 and centrists_resign = 0
 on-arrival: thalmann_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 
-Hermann Müller is now an advisor.
+Ernst Thalmann is now an advisor.
 
 @add_breitscheid
 title: Rudolf Breitscheid
