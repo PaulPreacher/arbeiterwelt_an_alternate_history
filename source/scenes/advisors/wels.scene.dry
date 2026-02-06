@@ -2,7 +2,7 @@ title: Walter Ulbricht
 is-pinned-card: true
 tags: advisor, centrist
 card-image: img/portraits/WelsOtto.jpg
-view-if: wels_advisor = 1
+view-if: ulbricht_advisor = 1
 new-page: true
 
 = Walter Ulbricht
