@@ -42,7 +42,6 @@ go-to: rm_main
 
 Pieck has been removed as an advisor. The Centrist faction disapproves.
 
-
 @remove_ulbricht
 title: Remove Ulbricht
 view-if: ulbricht_advisor = 1
@@ -52,7 +51,6 @@ go-to: rm_main
 
 Ulbricht has been removed as an advisor. The Centrist faction disapproves.
 
-
 @remove_thalmann
 title: Remove Thalmann
 view-if: thalmann_advisor = 1
@@ -61,7 +59,6 @@ on-arrival: thalmann_advisor = 0; center_dissent += 5; n_advisors -= 1
 go-to: rm_main
 
 Thalmann has been removed as an advisor. The Centrist faction disapproves.
-
 
 @remove_breitscheid
 title: Remove Breitscheid
@@ -282,7 +279,7 @@ Radbruch has been removed as an advisor.
 
 @add_advisors
 title: Add advisors
-choose-if: n_advisors < 3
+choose-if: n_advisors < 7
 unavailable-subtitle: Maximum of 3 advisors.
 go-to: advisor_menu
 
