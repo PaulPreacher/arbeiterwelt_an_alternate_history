@@ -344,7 +344,7 @@ Wilhelm Pieck is now an advisor.
 title: Walter Ulbricht
 subtitle: Walter Ulbricht is a local cadre leader and deals with appointments within the party. {!<br><br>!}[? if difficulty < 0 : Actions -  Clear the Agenda, Party Discipline, Emergency Fundraising ?]
 is-card: true
-card-image: img/portraits/WelsRudolf.jpg
+card-image: img/portraits/WalterUlbricht.jpg
 tags: center_advisor
 view-if: ulbricht_advisor = 0 and n_advisors < 3 and centrists_resign = 0
 on-arrival: ulbricht_advisor = 1; n_advisors += 1
