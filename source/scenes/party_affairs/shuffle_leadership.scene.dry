@@ -42,6 +42,7 @@ go-to: rm_main
 
 Pieck has been removed as an advisor. The Centrist faction disapproves.
 
+
 @remove_ulbricht
 title: Remove Ulbricht
 view-if: ulbricht_advisor = 1
@@ -50,6 +51,7 @@ on-arrival: ulbricht_advisor = 0; center_dissent += 5; n_advisors -= 1
 go-to: rm_main
 
 Ulbricht has been removed as an advisor. The Centrist faction disapproves.
+
 
 @remove_thalmann
 title: Remove Thalmann
