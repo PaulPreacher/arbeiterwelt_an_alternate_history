@@ -333,7 +333,7 @@ view-if: n_advisors < 3
 title: Wilhelm Pieck
 subtitle: Pieck had been active in the SPD since the 1890s, breaking from the party in 1917 over his opposition to the First World War. He co-founded the Spartacus League and the KPD.
 is-card: true
-card-image: img/portraits/HilferdingRudolf.jpg
+card-image: img/portraits/Wilhelm_Pieck_1907.jpg‎
 tags: center_advisor
 view-if: pieck_advisor = 0 and n_advisors < 3 and centrists_resign = 0
 on-arrival: pieck_advisor = 1; n_advisors += 1
