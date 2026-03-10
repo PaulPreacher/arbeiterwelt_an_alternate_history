@@ -1,7 +1,7 @@
 title: Wilhelm Pieck
 is-pinned-card: true
 tags: advisor, centrist
-card-image: img/portraits/WilhelmPieck1907.jpg‎
+card-image: img/portraits/WilhelmPieck1907.jpg
 view-if: pieck_advisor = 1
 new-page: true
 
