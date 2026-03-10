@@ -329,35 +329,35 @@ view-if: n_advisors < 3
 
 - #nonfactional_advisor
 
-@add_hilferding
-title: Rudolf Hilferding
-subtitle: Rudolf Hilferding is an economist and one of our chief Marxist theoreticians. {!<br><br>!}[? if difficulty < 0 : Actions - Against Right and Left, Defending Toleration, Fiscal Policy, Economic Democracy ?]
+@add_pieck
+title: Wilhelm Pieck
+subtitle: Pieck had been active in the SPD since the 1890s, breaking from the party in 1917 over his opposition to the First World War. He co-founded the Spartacus League and the KPD.
 is-card: true
 card-image: img/portraits/HilferdingRudolf.jpg
 tags: center_advisor
-view-if: hilferding_advisor = 0 and n_advisors < 3 and centrists_resign = 0
-on-arrival: hilferding_advisor = 1; n_advisors += 1
+view-if: pieck_advisor = 0 and n_advisors < 3 and centrists_resign = 0
+on-arrival: pieck_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 
-Rudolf Hilferding is now an advisor.
+Wilhelm Pieck is now an advisor.
 
-@add_wels
-title: Otto Wels
-subtitle: Otto Wels is a long-time party organizer and member of the leadership, serving under Friedrich Ebert. {!<br><br>!}[? if difficulty < 0 : Actions -  Clear the Agenda, Party Discipline, Emergency Fundraising ?]
+@add_ulbricht
+title: Walter Ulbricht
+subtitle: Walter Ulbricht is a local cadre leader and deals with appointments within the party. {!<br><br>!}[? if difficulty < 0 : Actions -  Clear the Agenda, Party Discipline, Emergency Fundraising ?]
 is-card: true
 card-image: img/portraits/WelsRudolf.jpg
 tags: center_advisor
-view-if: wels_advisor = 0 and n_advisors < 3 and centrists_resign = 0
-on-arrival: wels_advisor = 1; n_advisors += 1
+view-if: ulbricht_advisor = 0 and n_advisors < 3 and centrists_resign = 0
+on-arrival: ulbricht_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 
-Otto Wels is now an advisor.
+Walter Ulbricht is now an advisor.
 
 @add_thalmann
 title: Ernst Thalmann
 subtitle: Ernst Thalmann is a hero of the KPD he is Our Hero. {!<br><br>!}[? if difficulty < 0 : Actions -  Organizing workers, Party Discipline, Emergency Fundraising ?]
 is-card: true
-card-image: img/portraits/Thalmann.jpg
+card-image: img/portraits/ThälmannErnst.jpg
 tags: center_advisor
 view-if: thalmann_advisor = 0 and n_advisors < 3 and centrists_resign = 0
 on-arrival: thalmann_advisor = 1; n_advisors += 1
