@@ -539,7 +539,7 @@ Q.ulbricht_advisor = 1; // Walter Ulbricht
 Q.thalmann_advisor = 1; // Ernst Thalmann
 // okay I know Arthur Crispien was a leader irl but i couldn't find much interesting about him...
 Q.crispien_advisor = 0; // Arthur Crispien
-Q.hilferding_advisor = 1; // Rudolf Hilferding
+Q.pieck_advisor = 1; // Wilhelm Pieck
 
 // maximalists advisors
 Q.sender_advisor = 0; // Toni Sender
