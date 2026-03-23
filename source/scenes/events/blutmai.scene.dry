@@ -12,10 +12,10 @@ Tensions run high in Berlin. We are planning a demonstration to commemorate the 
 
 Many non-communists are afraid of the possibility of a takeover by us, and the SPDs allies in the Prussian coalition are asking the Prussian Interior Ministry to ban our demonstrations.
 
-- @ban: Ban the demonstrations.
-- @allow_police: Allow the demonstrations to proceed, but maintain a heavy police presence.
-- @allow: Allow the demonstrations to proceed.
-- @join: Join in the demonstrations ourselves.
+- @ban: The SPD bans our demonstrations.
+- @allow_police: The SPD allows the demonstrations to proceed, but maintains a heavy police presence.
+- @allow: The SPD allows the demonstrations to proceed.
+- @join: The SPD joins in the demonstrations.
 
 @ban
 choose-if: spd_relation <= 15
